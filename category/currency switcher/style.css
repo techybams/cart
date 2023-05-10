@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.navbar-brand:hover{
+    color: green;
+    text-decoration: underline;
+}
+.navbar-brand:active{
+    color: green;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    font-size: 30px;
+    margin-bottom: 3rem;
+    font-weight:normal;
+}
+
+.second{
+    margin-bottom: 10rem;
+}
